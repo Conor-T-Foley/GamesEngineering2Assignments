@@ -31,8 +31,8 @@ public:
         return a * b;   //<BUG_3> // Changed the / opperator to a *
     }
 
-    double divide(int a, int b) {
-        return a / b;   //<BUG_4>
+    double divide(double a, double b) {
+        return a / b;   //<BUG_4> // Changed the function signature to take two doubles. Avoids truncation of ints
     }
 };
 
@@ -40,7 +40,7 @@ int main() {
     Arithmetic1 ar1;
     Arithmetic2 ar2;
 
-    int x = 10, y = 5;
+    int x = 10, y = 2;
     cout << "Addition       (" << x << " + " << y << ") = " << ar1.add(x, y)      << endl;
     cout << "Subtraction    (" << x << " - " << y << ") = " << ar1.subtract(x, y) << endl;
     cout << "Multiplication (" << x << " * " << y << ") = " << ar2.multiply(x, y) << endl;
