@@ -27,7 +27,8 @@ TEST(Calculator, Subtract_ReturnsDifference) {
 
 // TODO(3): Subtract_ReturnsZeroForEqualInputs - e.g. subtract(7, 7) == 0
 TEST(Calculator, Subtract_ReturnsZeroForEqualInputs) {
-    FAIL() << "not implemented";
+    Calculator c;
+    EXPECT_EQ(c.subtract(35,35), 0);
 }
 
 // TODO(4): Add_HandlesZero - e.g. add(0, 42) == 42
