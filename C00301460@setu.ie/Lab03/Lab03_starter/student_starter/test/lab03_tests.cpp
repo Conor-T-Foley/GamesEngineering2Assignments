@@ -21,7 +21,8 @@ TEST(Calculator, Add_ReturnsSumForNegatives) {
 
 // TODO(2): Subtract_ReturnsDifference - e.g. subtract(10, 4) == 6
 TEST(Calculator, Subtract_ReturnsDifference) {
-    FAIL() << "not implemented";
+    Calculator c;
+    EXPECT_EQ(c.subtract(20,2), 18);
 }
 
 // TODO(3): Subtract_ReturnsZeroForEqualInputs - e.g. subtract(7, 7) == 0
