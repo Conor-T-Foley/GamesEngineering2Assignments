@@ -33,5 +33,6 @@ TEST(Calculator, Subtract_ReturnsZeroForEqualInputs) {
 
 // TODO(4): Add_HandlesZero - e.g. add(0, 42) == 42
 TEST(Calculator, Add_HandlesZero) {
-    FAIL() << "not implemented";
+    Calculator c;
+    EXPECT_EQ(c.add(14, 0), 14);
 }

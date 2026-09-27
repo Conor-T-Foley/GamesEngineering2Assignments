@@ -1,8 +1,7 @@
-Calculator.Add_ReturnsSumForPositive 5 0.00254144
-Calculator.Add_ReturnsSumForNegatives 3 0.0041679
-Calculator.Subtract_ReturnsDifference 2 0.00613545
-Calculator.Subtract_ReturnsZeroForEqualInputs 1 0.0122447
-Calculator.Add_HandlesZero 0 0
+Calculator.Add_ReturnsSumForPositive 6 0.00212287
+Calculator.Add_ReturnsSumForNegatives 4 0.00313205
+Calculator.Subtract_ReturnsDifference 3 0.00405843
+Calculator.Subtract_ReturnsZeroForEqualInputs 2 0.0062385
+Calculator.Add_HandlesZero 1 0.0125501
 lab03_tests_NOT_BUILT 0 0
 ---
-Calculator.Add_HandlesZero
