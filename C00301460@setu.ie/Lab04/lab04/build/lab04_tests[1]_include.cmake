@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake")
+  include("C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake")
+else()
+  add_test(lab04_tests_NOT_BUILT lab04_tests_NOT_BUILT)
+endif()

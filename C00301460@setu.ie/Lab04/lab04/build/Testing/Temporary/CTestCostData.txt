@@ -1,0 +1,7 @@
+ScanRegion.WorkedExample_PositiveMultipleOfThree 6 0.00149155
+ScanRegion.NodeCoverage_SecondTest 3 0.002719
+ScanRegion.EdgeCoverage_EmptyRegion 1 0
+ScanRegion.PrimePath_Example 0 0
+---
+ScanRegion.EdgeCoverage_EmptyRegion
+ScanRegion.PrimePath_Example

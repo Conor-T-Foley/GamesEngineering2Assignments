@@ -1,6 +1,6 @@
 // Lab 04 - Prime Path Coverage
-// Name  :
-// StudentID:
+// Name  : Conor Foley
+// StudentID: C00301460
 //
 // The unit under test is scanRegion( ) in src/region_scan.cpp. 
 //
@@ -27,7 +27,8 @@ TEST(ScanRegion, WorkedExample_PositiveMultipleOfThree) {
 // example is enough. Think about which grid drives the false arm of the
 // sum > 10 decision and the default arm of the switch.
 TEST(ScanRegion, NodeCoverage_SecondTest) {
-    FAIL() << "not implemented";
+    Grid g = {{1}};
+    EXPECT_EQ(scanRegion(g), -1);
 }
 
 // TODO(Task 3 - edge coverage): add the tests that cover the edges node

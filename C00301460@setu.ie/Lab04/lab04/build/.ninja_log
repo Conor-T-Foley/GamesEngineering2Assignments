@@ -1,0 +1,27 @@
+# ninja log v7
+9	176	8129304620766341	CMakeFiles/region_scan.dir/src/region_scan.cpp.obj	14839cc90b8a9aeb
+177	720	8129304622441782	libregion_scan.a	9e0245de00c0196a
+17	788	8129304620836356	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	171cbd8732b8bc38
+21	880	8129304620886332	CMakeFiles/lab04_tests.dir/test/lab04_tests.cpp.obj	15e711edd9120850
+26	970	8129304620936340	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	96296ffc3ff353e7
+13	1651	8129304620806336	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	badb28dc305d47f8
+3	4032	8129304620711211	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	1f402b138cae9b4d
+4033	4186	8129304661005889	lib/libgtest.a	2dcec27ea8478b8d
+4192	4279	8129304662591195	lib/libgtest_main.a	7acfdd8e9515dae0
+4186	4293	8129304662531197	lib/libgmock.a	5b35e7b29991e6d5
+4293	4379	8129304663601441	lib/libgmock_main.a	ae719fb906c32461
+4279	5085	8129304671445111	lab04_tests.exe	2b0bc76d79a409b5
+4279	5085	8129304671445111	lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+4279	5085	8129304671445111	C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+7	789	8129306570184259	CMakeFiles/lab04_tests.dir/test/lab04_tests.cpp.obj	15e711edd9120850
+789	1862	8129306588661414	lab04_tests.exe	2b0bc76d79a409b5
+789	1862	8129306588661414	lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+789	1862	8129306588661414	C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+7	787	8129307278171307	CMakeFiles/lab04_tests.dir/test/lab04_tests.cpp.obj	15e711edd9120850
+787	1598	8129307293997266	lab04_tests.exe	2b0bc76d79a409b5
+787	1598	8129307293997266	lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+787	1598	8129307293997266	C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+7	782	8129308248151175	CMakeFiles/lab04_tests.dir/test/lab04_tests.cpp.obj	15e711edd9120850
+782	11151	8129308359523155	lab04_tests.exe	2b0bc76d79a409b5
+782	11151	8129308359523155	lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
+782	11151	8129308359523155	C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab04/lab04/build/lab04_tests[1]_tests.cmake	2b0bc76d79a409b5
