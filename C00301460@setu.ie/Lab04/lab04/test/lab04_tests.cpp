@@ -35,7 +35,8 @@ TEST(ScanRegion, NodeCoverage_SecondTest) {
 // coverage leaves out. The edge from the outer loop test straight to the code
 // after the loops needs a grid the outer loop never enters.
 TEST(ScanRegion, EdgeCoverage_EmptyRegion) {
-    FAIL() << "not implemented";
+    Grid g = {};
+    EXPECT_EQ(scanRegion(g),0);
 }
 
 // TODO(Task 4 - prime path tour): using the prime path list in the overview,
