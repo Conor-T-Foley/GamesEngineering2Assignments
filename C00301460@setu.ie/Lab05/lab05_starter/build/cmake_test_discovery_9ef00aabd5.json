@@ -1,0 +1,42 @@
+{
+  "tests": 6,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Machine",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "VisitsAllThreeStates",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 10
+        },
+        {
+          "name": "OffPowerOnGoesToOn",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 22
+        },
+        {
+          "name": "OnPowerOffGoesToOff",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 27
+        },
+        {
+          "name": "OnPauseGoesToPaused",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 32
+        },
+        {
+          "name": "PausedResumeGoesToOn",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 37
+        },
+        {
+          "name": "PausedPowerOffGoesToOff",
+          "file": "C:\/Users\/Conor\/Desktop\/GamesEngineering2Assignments\/C00301460@setu.ie\/Lab05\/lab05_starter\/test\/lab05_tests.cpp",
+          "line": 42
+        }
+      ]
+    }
+  ]
+}

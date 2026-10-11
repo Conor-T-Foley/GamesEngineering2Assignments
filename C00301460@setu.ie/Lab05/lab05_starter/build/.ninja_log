@@ -1,0 +1,11 @@
+# ninja log v7
+20	101	8134190004603423	CMakeFiles/machine.dir/src/machine.cpp.obj	f09b1141a4939596
+102	274	8134190005412430	libmachine.a	b62348dfce825877
+24	1907	8134190004643408	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	7cc29c3a3329d56c
+16	6455	8134190004558307	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	2e7d89baa36c4c4d
+25	168	8134191065620352	lib/libgtest.a	2dcec27ea8478b8d
+169	251	8134191067050663	lib/libgtest_main.a	7acfdd8e9515dae0
+32	777	8134191065700350	CMakeFiles/lab05_tests.dir/test/lab05_tests.cpp.obj	3ef7fa3b176884aa
+778	1568	8134191080984245	lab05_tests.exe	31dbd36321773f7f
+778	1568	8134191080984245	lab05_tests[1]_tests.cmake	31dbd36321773f7f
+778	1568	8134191080984245	C:/Users/Conor/Desktop/GamesEngineering2Assignments/C00301460@setu.ie/Lab05/lab05_starter/build/lab05_tests[1]_tests.cmake	31dbd36321773f7f
