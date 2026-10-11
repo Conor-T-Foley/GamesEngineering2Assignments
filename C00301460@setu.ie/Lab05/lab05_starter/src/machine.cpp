@@ -13,7 +13,7 @@ State Machine::transition(State s, Event e) const {
             if (e == Event::powerOn) return State::ON;
             break;
         case State::ON:
-            if (e == Event::powerOff) return State::ON;
+            if (e == Event::powerOff) return State::OFF;
             if (e == Event::pause ) return State::PAUSED;
             break;
         case State::PAUSED:

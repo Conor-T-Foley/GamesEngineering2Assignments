@@ -25,21 +25,21 @@ TEST(Machine, OffPowerOnGoesToOn) {
 }
 
 TEST(Machine, OnPowerOffGoesToOff) {
-    // TODO
-    FAIL() << "not implemented";
+    Machine m;
+    EXPECT_EQ(m.transition(State::ON, Event::powerOff), State::OFF);
 }
 
 TEST(Machine, OnPauseGoesToPaused) {
-    // TODO
-    FAIL() << "not implemented";
+    Machine m;
+    EXPECT_EQ(m.transition(State::ON, Event::pause), State::PAUSED);
 }
 
 TEST(Machine, PausedResumeGoesToOn) {
-    // TODO
-    FAIL() << "not implemented";
+    Machine m;
+    EXPECT_EQ(m.transition(State::PAUSED, Event::resume), State::ON);
 }
 
 TEST(Machine, PausedPowerOffGoesToOff) {
-    // TODO
-    FAIL() << "not implemented";
+    Machine m;
+    EXPECT_EQ(m.transition(State::PAUSED, Event::powerOff), State::OFF);
 }
