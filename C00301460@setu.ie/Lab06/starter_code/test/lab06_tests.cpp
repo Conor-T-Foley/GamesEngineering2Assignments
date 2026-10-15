@@ -24,7 +24,7 @@ TEST_F(DiscountFixture, WorkedExample_CouponAlone) {
 // TODO(Task 2 - predicate coverage): add ONE more test so the suite has at
 // least one row where the predicate is false and one where it is true.
 TEST_F(DiscountFixture, PredicateCoverage_FalseRow) {
-    FAIL() << "not implemented";
+    EXPECT_FALSE(d.eligible(false, false, false));
 }
 
 // TODO(Task 3 - clause coverage): add tests so that isMember,

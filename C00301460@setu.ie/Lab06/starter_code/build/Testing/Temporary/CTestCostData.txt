@@ -1,0 +1,4 @@
+DiscountFixture.WorkedExample_CouponAlone 5 0.00177622
+DiscountFixture.PredicateCoverage_FalseRow 3 0.002991
+DiscountFixture.ClauseCoverage_Rows 1 0.0089777
+---
